@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="21" viewBox="0 0 20 21">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <image id="run.svg" class="cls-1" width="20" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAABPklEQVQ4ja2UX0sDMRDEf56nVU9FS0/889Lv/5l88EWobbVUWqzW68nKBEJMUu4wEDgyu5Odnb0c0H2dALfAEbACJkDrWIoehDVwDFgxF8C5D/YhbHPgYQ/CDTBQhUtg4YO5Hlr19+pVWOG7iPxqL4FdjnAEDDP4FpgCa6ACHuyCFKFVNZaCGfClhNhayyTLWaZMqUW2kbSrAF95kiuR7YB5mZHUSlKlHZ5/y5Ra+Bxocj102DgwxhLfIrG/BuXm0AKuA7JtOCZeLPsIy4jLr/sGO0c4Em69aryzQY4w9afYA3Cj74l65ty0Af6U/D/LmnkngvCiQjP27J1Z7JlkP8bkW9KpbvZ3oeCZF2uyX/SdnA5r/FNCeqNhDQtwK2pOqaQwMbUcYTK+63vo4p3r/0aYnMWuhPbqGNlHFAV+AEb+Rzu/O+yPAAAAAElFTkSuQmCC"/>
+</svg>
