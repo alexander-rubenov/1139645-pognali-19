@@ -108,696 +108,694 @@
     </header>
 
     <main>
-      <div class="wrapper">
-        <section class="users">
-          <h2 class="visually-hidden">
-            Список попутчиков
-          </h2>
+      <section class="users">
+        <h2 class="visually-hidden">
+          Список попутчиков
+        </h2>
 
-          <ul class="users__list users-list">
-            <li class="users-list__item">
-              <article class="user">
-                <header class="user__header">
-                  <div class="user__photo-wrapper">
+        <ul class="users__list users-list">
+          <li class="users-list__item">
+            <article class="user">
+              <header class="user__header">
+                <div class="user__photo-wrapper">
+                  <img
+                    class="user__photo"
+                    src=""
+                    width="70"
+                    height="70"
+                    alt="Фото профиля"
+                  />
+
+                  <button class="user__heart-button">
+                    Добавить в избранное
+                  </button>
+                </div>
+
+                <span class="user__name">
+                  Таня Фирсова
+                </span>
+
+                <span class="user__distance">
+                  1,5 m
+                </span>
+              </header>
+
+              <p class="user__tags">
+                #ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи
+              </p>
+
+              <div class="user__countries">
+                <span class="countries__text">
+                  Хочет посетить
+                </span>
+
+                <ul class="countries-list">
+                  <li class="countries-list__item">
                     <img
-                      class="user__photo"
+                      class="countries-list__flag-image"
                       src=""
-                      width="70"
-                      height="70"
-                      alt="Фото профиля"
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Шри-ланки"
                     />
-
-                    <button class="user__heart-button">
-                      Добавить в избранное
-                    </button>
-                  </div>
-
-                  <span class="user__name">
-                    Таня Фирсова
-                  </span>
-
-                  <span class="user__distance">
-                    1,5 m
-                  </span>
-                </header>
-
-                <p class="user__tags">
-                  #ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи
-                </p>
-
-                <div class="user__countries">
-                  <span class="countries__text">
-                    Хочет посетить
-                  </span>
-
-                  <ul class="countries-list">
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Шри-ланки"
-                      />
-                      <span class="countries-list__country-name">
-                        Шри-ланка
-                      </span>
-                    </li>
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Таиланда"
-                      />
-                      <span class="countries-list__country-name">
-                        Таиланд
-                      </span>
-                    </li>
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Сейшел"
-                      />
-                      <span class="countries-list__country-name">
-                        Сейшелы
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__transport">
-                  <span class="transport__text">
-                    Транспорт:
-                  </span>
-
-                  <ul class="transport-list">
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Самолет
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/plane-active.svg"
-                        alt="Иконка самолета"
-                        width="19"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Автобус
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bus.svg"
-                        alt="Иконка автобуса"
-                        width="17"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Велосипед
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bike.svg"
-                        alt="Иконка велосипедиста"
-                        width="24"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Бег
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/run.svg"
-                        alt="Иконка бегуна"
-                        width="20"
-                        height="21"
-                      />
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__level">
-                  <b class="level__text">
-                    левел:
-                  </b>
-
-                  <article class="level">
-                    <span class="level__number">99</span>
-                  </article>
-                </div>
-
-                <button class="button" type="button">
-                  Позвать!
-                </button>
-              </article>
-            </li>
-            <li class="users-list__item">
-              <article class="user">
-                <header class="user__header">
-                  <div class="user__photo-wrapper">
-                    <img
-                      class="user__photo"
-                      src=""
-                      width="70"
-                      height="70"
-                      alt="Фото профиля"
-                    />
-
-                    <button class="user__heart-button">
-                      Добавить в избранное
-                    </button>
-                  </div>
-
-                  <span class="user__name">
-                    Петя Демин
-                  </span>
-
-                  <span class="user__distance">
-                    1500
-                  </span>
-                </header>
-
-                <p class="user__tags">
-                  #бургер #бар #футбол #концерт #крафт
-                </p>
-
-                <div class="user__countries">
-                  <span class="countries__text">
-                    Хочет посетить
-                  </span>
-
-                  <ul class="countries-list">
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Бельгии"
-                      />
-                      <span class="countries-list__country-name">
-                        Бельгия
-                      </span>
-                    </li>
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Чехии"
-                      />
-                      <span class="countries-list__country-name">
-                        Чехия
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__transport">
-                  <span class="transport__text">
-                    Транспорт:
-                  </span>
-
-                  <ul class="transport-list">
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Самолет
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/plane-active.svg"
-                        alt="Иконка самолета"
-                        width="19"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Автобус
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bus-active.svg"
-                        alt="Иконка автобуса"
-                        width="17"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Велосипед
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bike.svg"
-                        alt="Иконка велосипедиста"
-                        width="24"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Бег
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/run-active.svg"
-                        alt="Иконка бегуна"
-                        width="20"
-                        height="21"
-                      />
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__level">
-                  <b class="level__text">
-                    левел:
-                  </b>
-
-                  <article class="level">
-                    <span class="level__number">80</span>
-                  </article>
-                </div>
-
-                <button class="button" type="button">
-                  Позвать!
-                </button>
-              </article>
-            </li>
-            <li class="users-list__item">
-              <article class="user">
-                <header class="user__header">
-                  <div class="user__photo-wrapper">
-                    <img
-                      class="user__photo"
-                      src=""
-                      width="70"
-                      height="70"
-                      alt="Фото профиля"
-                    />
-
-                    <button class="user__heart-button">
-                      Добавить в избранное
-                    </button>
-                  </div>
-
-                  <span class="user__name">
-                    Марк Смолов
-                  </span>
-
-                  <span class="user__distance">
-                    170
-                  </span>
-                </header>
-
-                <p class="user__tags">
-                  #рэп #тату #хайпбист #кроссовки #суприм
-                </p>
-
-                <div class="user__countries">
-                  <span class="countries__text">
-                    Хочет посетить
-                  </span>
-
-                  <ul class="countries-list">
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага США"
-                      />
-                      <span class="countries-list__country-name">
-                        США
-                      </span>
-                    </li>
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Австралии"
-                      />
-                      <span class="countries-list__country-name">
-                        Австралия
-                      </span>
-                    </li>
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Доминики"
-                      />
-                      <span class="countries-list__country-name">
-                        Доминика
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__transport">
-                  <span class="transport__text">
-                    Транспорт:
-                  </span>
-
-                  <ul class="transport-list">
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Самолет
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/plane-active.svg"
-                        alt="Иконка самолета"
-                        width="19"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Автобус
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bus.svg"
-                        alt="Иконка автобуса"
-                        width="17"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Велосипед
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bike-active.svg"
-                        alt="Иконка велосипедиста"
-                        width="24"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Бег
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/run.svg"
-                        alt="Иконка бегуна"
-                        width="20"
-                        height="21"
-                      />
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__level">
-                  <b class="level__text">
-                    левел:
-                  </b>
-
-                  <article class="level">
-                    <span class="level__number">25</span>
-                  </article>
-                </div>
-
-                <button class="button" type="button">
-                  Позвать!
-                </button>
-              </article>
-            </li>
-            <li class="users-list__item">
-              <article class="user">
-                <header class="user__header">
-                  <div class="user__photo-wrapper">
-                    <img
-                      class="user__photo"
-                      src=""
-                      width="70"
-                      height="70"
-                      alt="Фото профиля"
-                    />
-
-                    <button class="user__heart-button">
-                      Добавить в избранное
-                    </button>
-                  </div>
-
-                  <span class="user__name">
-                    Лариса Роговая
-                  </span>
-
-                  <span class="user__distance">
-                    23
-                  </span>
-                </header>
-
-                <p class="user__tags">
-                  #образование #карьера #учеба #линкедин
-                </p>
-
-                <div class="user__countries">
-                  <span class="countries__text">
-                    Хочет посетить
-                  </span>
-
-                  <ul class="countries-list">
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Великобритании"
-                      />
-                      <span class="countries-list__country-name">
-                        Великобритания
-                      </span>
-                    </li>
-                    <li class="countries-list__item">
-                      <img
-                        class="countries-list__flag-image"
-                        src=""
-                        width="26"
-                        height="18"
-                        alt="Изображение флага Германии"
-                      />
-                      <span class="countries-list__country-name">
-                        Германия
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__transport">
-                  <span class="transport__text">
-                    Транспорт:
-                  </span>
-
-                  <ul class="transport-list">
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Самолет
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/plane-active.svg"
-                        alt="Иконка самолета"
-                        width="19"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Автобус
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bus-active.svg"
-                        alt="Иконка автобуса"
-                        width="17"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Велосипед
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/bike.svg"
-                        alt="Иконка велосипедиста"
-                        width="24"
-                        height="21"
-                      />
-                    </li>
-                    <li
-                      class="transport-list__item transport-list__item--in-circles"
-                    >
-                      <span>
-                        Бег
-                      </span>
-
-                      <img
-                        class="transport-list__image"
-                        src="img/transport/run.svg"
-                        alt="Иконка бегуна"
-                        width="20"
-                        height="21"
-                      />
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="user__level">
-                  <b class="level__text">
-                    левел:
-                  </b>
-
-                  <article class="level">
-                    <span class="level__number">50</span>
-                  </article>
-                </div>
-
-                <button class="button" type="button">
-                  Позвать!
-                </button>
-              </article>
-            </li>
-          </ul>
-
-          <button class="users__button button--transparent">
-            + Показать еще
-          </button>
-
-          <div class="users__switch-buttons-wrapper">
-            <button class="button button--white button--without-right-bends">
-              Назад
-            </button>
-            <button class="button button--white button--without-left-bends">
-              Вперед
-            </button>
-          </div>
-
-          <footer class="footer">
-            <div class="wrapper">
-              <a class="footer__logo" href="index.html">
-                <img
-                  class="footer__logo-image"
-                  src="img/logo-mobile-white.svg"
-                  alt="Логотип сервиса Погнали"
-                  width="100"
-                  height="19"
-                />
-              </a>
-
-              <article class="footer__social social">
-                <ul class="social__list">
-                  <li class="social__item">
-                    <a
-                      class="social__link social__link--yellow social__link--facebook"
-                      href="https://www.facebook.com/htmlacademy"
-                    >
-                      Мы в Фейсбуке
-                    </a>
+                    <span class="countries-list__country-name">
+                      Шри-ланка
+                    </span>
                   </li>
-                  <li class="social__item">
-                    <a
-                      class="social__link social__link--yellow social__link--vkontakte"
-                      href="https://vk.com/htmlacademy"
-                    >
-                      Мы в Вконтакте
-                    </a>
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Таиланда"
+                    />
+                    <span class="countries-list__country-name">
+                      Таиланд
+                    </span>
                   </li>
-                  <li class="social__item">
-                    <a
-                      class="social__link social__link--yellow social__link--instagram"
-                      href="https://www.instagram.com/htmlacademy"
-                    >
-                      Мы в Инстаграме
-                    </a>
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Сейшел"
+                    />
+                    <span class="countries-list__country-name">
+                      Сейшелы
+                    </span>
                   </li>
                 </ul>
-              </article>
-
-              <div class="footer__copyright copyright">
-                <span class="copyright__text">
-                  Разработано
-                </span>
-                <a
-                  class="copyright__link"
-                  href="https://htmlacademy.ru/intensive/adaptive"
-                >
-                  HTML Academy
-                </a>
               </div>
+
+              <div class="user__transport">
+                <span class="transport__text">
+                  Транспорт:
+                </span>
+
+                <ul class="transport-list">
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Самолет
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/plane-active.svg"
+                      alt="Иконка самолета"
+                      width="19"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Автобус
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bus.svg"
+                      alt="Иконка автобуса"
+                      width="17"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Велосипед
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bike.svg"
+                      alt="Иконка велосипедиста"
+                      width="24"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Бег
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/run.svg"
+                      alt="Иконка бегуна"
+                      width="20"
+                      height="21"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user__level">
+                <b class="level__text">
+                  левел:
+                </b>
+
+                <article class="level">
+                  <span class="level__number">99</span>
+                </article>
+              </div>
+
+              <button class="button" type="button">
+                Позвать!
+              </button>
+            </article>
+          </li>
+          <li class="users-list__item">
+            <article class="user">
+              <header class="user__header">
+                <div class="user__photo-wrapper">
+                  <img
+                    class="user__photo"
+                    src=""
+                    width="70"
+                    height="70"
+                    alt="Фото профиля"
+                  />
+
+                  <button class="user__heart-button">
+                    Добавить в избранное
+                  </button>
+                </div>
+
+                <span class="user__name">
+                  Петя Демин
+                </span>
+
+                <span class="user__distance">
+                  1500
+                </span>
+              </header>
+
+              <p class="user__tags">
+                #бургер #бар #футбол #концерт #крафт
+              </p>
+
+              <div class="user__countries">
+                <span class="countries__text">
+                  Хочет посетить
+                </span>
+
+                <ul class="countries-list">
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Бельгии"
+                    />
+                    <span class="countries-list__country-name">
+                      Бельгия
+                    </span>
+                  </li>
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Чехии"
+                    />
+                    <span class="countries-list__country-name">
+                      Чехия
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user__transport">
+                <span class="transport__text">
+                  Транспорт:
+                </span>
+
+                <ul class="transport-list">
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Самолет
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/plane-active.svg"
+                      alt="Иконка самолета"
+                      width="19"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Автобус
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bus-active.svg"
+                      alt="Иконка автобуса"
+                      width="17"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Велосипед
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bike.svg"
+                      alt="Иконка велосипедиста"
+                      width="24"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Бег
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/run-active.svg"
+                      alt="Иконка бегуна"
+                      width="20"
+                      height="21"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user__level">
+                <b class="level__text">
+                  левел:
+                </b>
+
+                <article class="level">
+                  <span class="level__number">80</span>
+                </article>
+              </div>
+
+              <button class="button" type="button">
+                Позвать!
+              </button>
+            </article>
+          </li>
+          <li class="users-list__item">
+            <article class="user">
+              <header class="user__header">
+                <div class="user__photo-wrapper">
+                  <img
+                    class="user__photo"
+                    src=""
+                    width="70"
+                    height="70"
+                    alt="Фото профиля"
+                  />
+
+                  <button class="user__heart-button">
+                    Добавить в избранное
+                  </button>
+                </div>
+
+                <span class="user__name">
+                  Марк Смолов
+                </span>
+
+                <span class="user__distance">
+                  170
+                </span>
+              </header>
+
+              <p class="user__tags">
+                #рэп #тату #хайпбист #кроссовки #суприм
+              </p>
+
+              <div class="user__countries">
+                <span class="countries__text">
+                  Хочет посетить
+                </span>
+
+                <ul class="countries-list">
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага США"
+                    />
+                    <span class="countries-list__country-name">
+                      США
+                    </span>
+                  </li>
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Австралии"
+                    />
+                    <span class="countries-list__country-name">
+                      Австралия
+                    </span>
+                  </li>
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Доминики"
+                    />
+                    <span class="countries-list__country-name">
+                      Доминика
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user__transport">
+                <span class="transport__text">
+                  Транспорт:
+                </span>
+
+                <ul class="transport-list">
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Самолет
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/plane-active.svg"
+                      alt="Иконка самолета"
+                      width="19"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Автобус
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bus.svg"
+                      alt="Иконка автобуса"
+                      width="17"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Велосипед
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bike-active.svg"
+                      alt="Иконка велосипедиста"
+                      width="24"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Бег
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/run.svg"
+                      alt="Иконка бегуна"
+                      width="20"
+                      height="21"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user__level">
+                <b class="level__text">
+                  левел:
+                </b>
+
+                <article class="level">
+                  <span class="level__number">25</span>
+                </article>
+              </div>
+
+              <button class="button" type="button">
+                Позвать!
+              </button>
+            </article>
+          </li>
+          <li class="users-list__item">
+            <article class="user">
+              <header class="user__header">
+                <div class="user__photo-wrapper">
+                  <img
+                    class="user__photo"
+                    src=""
+                    width="70"
+                    height="70"
+                    alt="Фото профиля"
+                  />
+
+                  <button class="user__heart-button">
+                    Добавить в избранное
+                  </button>
+                </div>
+
+                <span class="user__name">
+                  Лариса Роговая
+                </span>
+
+                <span class="user__distance">
+                  23
+                </span>
+              </header>
+
+              <p class="user__tags">
+                #образование #карьера #учеба #линкедин
+              </p>
+
+              <div class="user__countries">
+                <span class="countries__text">
+                  Хочет посетить
+                </span>
+
+                <ul class="countries-list">
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Великобритании"
+                    />
+                    <span class="countries-list__country-name">
+                      Великобритания
+                    </span>
+                  </li>
+                  <li class="countries-list__item">
+                    <img
+                      class="countries-list__flag-image"
+                      src=""
+                      width="26"
+                      height="18"
+                      alt="Изображение флага Германии"
+                    />
+                    <span class="countries-list__country-name">
+                      Германия
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user__transport">
+                <span class="transport__text">
+                  Транспорт:
+                </span>
+
+                <ul class="transport-list">
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Самолет
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/plane-active.svg"
+                      alt="Иконка самолета"
+                      width="19"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Автобус
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bus-active.svg"
+                      alt="Иконка автобуса"
+                      width="17"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Велосипед
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/bike.svg"
+                      alt="Иконка велосипедиста"
+                      width="24"
+                      height="21"
+                    />
+                  </li>
+                  <li
+                    class="transport-list__item transport-list__item--in-circles"
+                  >
+                    <span>
+                      Бег
+                    </span>
+
+                    <img
+                      class="transport-list__image"
+                      src="img/transport/run.svg"
+                      alt="Иконка бегуна"
+                      width="20"
+                      height="21"
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user__level">
+                <b class="level__text">
+                  левел:
+                </b>
+
+                <article class="level">
+                  <span class="level__number">50</span>
+                </article>
+              </div>
+
+              <button class="button" type="button">
+                Позвать!
+              </button>
+            </article>
+          </li>
+        </ul>
+
+        <button class="users__button button--transparent">
+          + Показать еще
+        </button>
+
+        <div class="users__switch-buttons-wrapper">
+          <button class="button button--white button--without-right-bends">
+            Назад
+          </button>
+          <button class="button button--white button--without-left-bends">
+            Вперед
+          </button>
+        </div>
+
+        <footer class="footer">
+          <div class="inner">
+            <a class="footer__logo" href="index.html">
+              <img
+                class="footer__logo-image"
+                src="img/logo-mobile-white.svg"
+                alt="Логотип сервиса Погнали"
+                width="100"
+                height="19"
+              />
+            </a>
+
+            <article class="footer__social social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a
+                    class="social__link social__link--yellow social__link--facebook"
+                    href="https://www.facebook.com/htmlacademy"
+                  >
+                    Мы в Фейсбуке
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a
+                    class="social__link social__link--yellow social__link--vkontakte"
+                    href="https://vk.com/htmlacademy"
+                  >
+                    Мы в Вконтакте
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a
+                    class="social__link social__link--yellow social__link--instagram"
+                    href="https://www.instagram.com/htmlacademy"
+                  >
+                    Мы в Инстаграме
+                  </a>
+                </li>
+              </ul>
+            </article>
+
+            <div class="footer__copyright copyright">
+              <span class="copyright__text">
+                Разработано
+              </span>
+              <a
+                class="copyright__link"
+                href="https://htmlacademy.ru/intensive/adaptive"
+              >
+                HTML Academy
+              </a>
             </div>
-          </footer>
-        </section>
-      </div>
+          </div>
+        </footer>
+      </section>
     </main>
   </body>
 </html>
